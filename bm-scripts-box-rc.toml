@@ -1,7 +1,7 @@
 [bmscriptsbox.info]
 id = "51c3f5b3-7a52-4a7f-8d8e-142a44c6a790"              
 name = "视频号下载"                                    
-desc = "知名开源视频号下载软件wx_channels_download部署脚本"                                  
+desc = "核心下载能力基于开源工具 wx_channels_download 构建，本脚本仅作为部署与管理封装，通过不忙脚本盒子进行统一管理，开箱即用，操作便捷。"                                  
 version = "1.0.0"                                        
 icon = "./imgs/logo.png"   
 
