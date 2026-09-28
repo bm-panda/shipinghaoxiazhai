@@ -1,0 +1,29 @@
+[bmscriptsbox.info]
+id = "51c3f5b3-7a52-4a7f-8d8e-142a44c6a790"              
+name = "视频号下载"                                    
+desc = "知名开源视频号下载软件wx_channels_download部署脚本"                                  
+version = "1.0.0"                                        
+icon = "./imgs/logo.png"   
+
+[bmscriptsbox.runtime]
+language = "bat"  
+language_version = ">=0.0.0"             
+entry = "main.cmd"                   
+terminal = "always"   
+binaries = [{name = "wx_channels_download"}]     
+
+[bmscriptsbox.triggers]
+[bmscriptsbox.triggers.context_menu]                   
+enabled = true                                 
+targets = ["background"]                        
+
+[bmscriptsbox.triggers.shortcut]                          
+enabled = true                                  
+input_type = ""                                 
+
+
+
+
+
+
+
